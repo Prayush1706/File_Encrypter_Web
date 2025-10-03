@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+body{
+    font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px
+}
+.container{
+    background:white;
+    border-radius:20px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    padding:40px;
+    max-width:500px;
+    width:100%
+}
+h1{
+    text-align:center;
+    color:#333;
+    margin-bottom:10px;
+    font-size:2em
+}
+.subtitle{
+    text-align:center;
+    color:#666;
+    margin-bottom:40px;
+    font-size:0.9em
+}
+.options{
+    display:flex;
+    flex-direction:column;
+    gap:20px
+}
+.option-card{
+    background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);
+    border-radius:15px;
+    padding:30px;
+    cursor:pointer;
+    transition:transform 0.3s,box-shadow 0.3s;
+    text-decoration:none;
+    color:white
+}
+.option-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.2)
+}
+.option-card h2{
+    margin-bottom:10px;
+    font-size:1.5em
+}
+.option-card p{
+    opacity:0.9;
+    line-height:1.5
+}
+.icon{
+    font-size:2em;
+    margin-bottom:10px
+}
